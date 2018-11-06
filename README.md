@@ -21,7 +21,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/pmda-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pmda-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/pmda-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pmda-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pmda-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pmda-feedstock/branch/master)
 
 Current release info
 ====================
