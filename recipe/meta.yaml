@@ -1,5 +1,5 @@
 {% set name = "pmda" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b7996860bd5add62d0bcc28361cf073517d905f31f442ef06fa7961ee92c5fbe
+  sha256: 09230b15c2efdf10ca7402d28e387e4cde5e1c2fa471dbd537b47c26944359fb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
