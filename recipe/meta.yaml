@@ -1,5 +1,5 @@
 {% set name = "pmda" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 09230b15c2efdf10ca7402d28e387e4cde5e1c2fa471dbd537b47c26944359fb
+  sha256: a5c33f43184aa26d0a46d15a6c8be3f08aa0274c5ce8b478eb372169846f972c
 
 build:
   number: 0
@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python
-    - dask>=0.18.0
+    - dask >=0.18.0
     - distributed
-    - mdanalysis>=0.19.2
+    - mdanalysis >=0.19.2
     - joblib
     - six
 
